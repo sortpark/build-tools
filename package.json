@@ -1,0 +1,33 @@
+{
+  "name": "@sortpark/build-tools",
+  "version": "0.0.1",
+  "description": "Collection of build tools for managing repositories on GitHub and NPM.",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sortpark/build-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sortpark/build-tools/issues"
+  },
+  "keywords": [
+    "cli",
+    "build",
+    "tools",
+    "github",
+    "npm"
+  ],
+  "author": {
+    "name": "Erik Koopmans",
+    "email": "erik@erik-koopmans.com",
+    "url": "https://www.erik-koopmans.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/sortpark/build-tools#readme",
+  "bin": {
+    "build-tools": "bin/build-tools.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
