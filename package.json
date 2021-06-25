@@ -29,6 +29,7 @@
   "license": "MIT",
   "homepage": "https://github.com/sortpark/build-tools#readme",
   "devDependencies": {
+    "commander": "^8.0.0",
     "webpack": "^5.40.0",
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.7.2"

@@ -1,1 +1,3 @@
-console.log('test');
+export function stageRelease() {
+  console.log('test');
+}
