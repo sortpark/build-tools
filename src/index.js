@@ -1,3 +1,3 @@
-export function stageRelease() {
-  console.log('test');
-}
+export { stageRelease } from './stage-release';
+export { release } from './release';
+export { publishGH } from './publish';
