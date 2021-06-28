@@ -18,7 +18,7 @@ module.exports = (env = '') => {
         filename: `build-tools.cjs${minStr}.js`,
         libraryTarget: 'commonjs2',
       },
-      externals: ['fs', 'path'],
+      externals: ['fs', 'path', 'dotenv'],
       externalsType: 'commonjs',
       babelOptions: {
         presets: ['@babel/preset-env'],
