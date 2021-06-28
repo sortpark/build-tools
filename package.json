@@ -43,6 +43,9 @@
     "build:analyze": "npm run clean && webpack --env=prod --env=analyzer",
     "clean": "rimraf dist",
     "dev": "webpack --env=dev --env=analyzer",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stage-release": "node ./bin/build-tools stage-release",
+    "release": "node ./bin/build-tools release",
+    "publish-gh": "node ./bin/build-tools publish-gh"
   }
 }
