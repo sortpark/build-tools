@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 const { program } = require('commander');
-const buildTools = require('../dist/build-tools.cjs.js');
 const pkg = require('../package.json');
+const buildTools = require(`../${pkg.main}`);
 
 program.version(pkg.version, '-v, --version');
 program

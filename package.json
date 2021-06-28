@@ -2,7 +2,7 @@
   "name": "@sortpark/build-tools",
   "version": "0.0.1",
   "description": "Collection of build tools for managing repositories on GitHub and NPM.",
-  "main": "dist/build-tools.cjs.js",
+  "main": "dist/build-tools.cjs.min.js",
   "module": "src/index.js",
   "bin": {
     "build-tools": "bin/build-tools.js"
@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "commander": "^8.0.0",
+    "rimraf": "^3.0.2",
     "webpack": "^5.40.0",
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.7.2"
