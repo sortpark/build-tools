@@ -28,6 +28,9 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/sortpark/build-tools#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  },
   "devDependencies": {
     "commander": "^8.0.0",
     "webpack": "^5.40.0",
