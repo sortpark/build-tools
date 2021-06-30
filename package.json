@@ -1,6 +1,6 @@
 {
   "name": "@sortpark/build-tools",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Collection of build tools for managing repositories on GitHub and NPM.",
   "main": "dist/build-tools.cjs.min.js",
   "module": "src/index.js",
